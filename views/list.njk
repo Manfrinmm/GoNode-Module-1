@@ -1,0 +1,13 @@
+<h1> Bem vindo, {{name}}</h1>
+
+<h1><strong>Listagem<strong></h1>
+
+
+<ul>
+{% for user in users %}
+
+  <li>{{user}}</li>
+{% endfor %}
+</ul>
+{# <input type="text" onSubmit={users.push(e.value)}></input> #}
+<a href="/new">Cadastrar </a>
